@@ -1,0 +1,56 @@
+.bg-element-holder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+	width: 100%;
+}
+.quadragon{
+	z-index: -5;
+	width: 100%;
+	
+	
+}
+.developer{
+	width: 90%;
+}
+
+
+@media (min-width: 576px) {
+	.quadragon{
+		width: 100%;
+	}
+	.developer{
+		width: 90%;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.quadragon{
+		width: 100%;
+	}
+	.developer{
+		width: 90%;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.quadragon{
+		width: 50%
+	}
+	.developer{
+		width: 70%;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	.quadragon{
+		width: 50%;
+	}
+	.developer{
+		width: 70%;
+	}
+}
