@@ -11,15 +11,15 @@
 </head>
 <body class="bg-dark">
 
-	<div class="bg-element-holder">
+	<div class="bg-element-top">
 		<img class="quadragon" src="./asset/quadragon.svg">
 	</div>
 
 	<header class="text-right p-3">
 		<nav class="container">
-			<a class="text-light m-3" href="#">Project</a>
-			<a class="text-light m-3" href="#">About</a>
-			<a class="text-light m-3" href="#">Contact</a>
+			<a class="text-light m-3" href="#projects">Projects</a>
+			<a class="text-light m-3" href="#aboutMe">About Me</a>
+			<a class="text-light m-3" href="#contactMe">Contact Me</a>
 		</nav>
 	</header>
 
@@ -31,13 +31,12 @@
 			<div class="col-12 col-md-6 text-light text-center">
 				<h1 class="pt-5 mt-5 w-100 text-center">I bring ideas to life</h1>
 				<div class="p-3">
-					<button class="btn btn-sm btn-info m-2">Learn More</button>
-					<button class="btn btn-sm btn-outline-info m-2">Contact Me</button>
+					<a class="btn btn-sm btn-info m-2" href="#contactMe">Contact Me</a>
 				</div>
 			</div>
 		</div>
 
-		<div class="row mt-5 text-center text-light">
+		<div class="row mt-5 text-center text-light" id="aboutMe">
 			<div class="col-12 p-3">
 				<h1>Who I am</h1>
 				<h5 class="mt-4">
@@ -70,7 +69,7 @@
 			</div>
 		</div>
 
-		<div class="row mt-5 text-center text-light">
+		<div class="row mt-5 text-center text-light" id="projects">
 			<div class="col-12 p-3">
 				<h1>What I've done</h1>
 			</div>
@@ -136,11 +135,87 @@
 			<div class="col-12 p-3">
 				<h5>... and many more</h5>
 			</div>
-			
 		</div>
+
+		<div class="row mt-5 text-light text-center">
+			<div class="col-12 p-3">
+				<h1>Where I came form</h1>
+			</div>
+			<div class="col-12 col-lg-6 p-3">
+				<img class="w-75" src="./asset/profile-details.svg">
+			</div>
+			<div class="col-12 col-lg-6">
+				<h4 class="mt-3">Programming skills</h4>
+				<span>PHP, Advanced Java, JavaScript</span><br>
+				<span>MySQL, SQLite, Firebase</span><br>
+				<span>HTML, CSS(Bootstrap)</span><br>
+				<span>WordPress, WooCommerce</span><br>
+
+				<h4 class="mt-3">Personal skills</h4>
+				<span>Leadership</span><br>
+				<span>Collaboration</span><br>
+			</div>
+		</div>
+
+		<div class="row mt-5 text-light text-center">
+			<div class="col-12 p-5">
+				<div class="ganp">
+					<div class="row">
+						<div class="col-12 col-lg-9">
+							<h1>Got a new idea? Let's bring it to live</h1>
+						</div>
+						<div class="col-12 col-lg-3 pt-1">
+							<a class="btn btn-sm btn-dark m-2" href="#contactMe">Contact Me</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</main>
 
-
+	<footer class="container mt-5 text-light text-center">
+		<div class="row" id="contactMe">
+			<div class="col-12 p-3">
+				<h1>Connect with me</h1>
+			</div>
+			<div class="col-12 col-lg-6 p-4">
+				<h5>
+					Manish Parui<br><br>
+					+91 9804307030<br>
+					manishparui8@gmail.com<br><br>
+					BL 59, Sector 2, Salt Lake,<br>
+					Kolkata 700091
+				</h5>
+			</div>
+			<div class="col-12 col-lg-6 p-2 social-icon-holder">
+				<a class="m-2" href="https://www.linkedin.com/in/manish-parui-95791611a/">
+					<img width="30" src="./asset/icon/linkedin.svg">
+				</a>
+				<a class="m-2" href="https://github.com/manishparui">
+					<img width="30" src="./asset/icon/github.svg">
+				</a>
+				<a class="m-2" href="https://api.whatsapp.com/send?phone=919804307030">
+					<img width="30" src="./asset/icon/whatsapp.svg">
+				</a>
+				<a class="m-2" href="https://www.facebook.com/manish.parui.5">
+					<img width="30" src="./asset/icon/facebook.svg">
+				</a>
+				<a class="m-2" href="https://twitter.com/ParuiManish">
+					<img width="30" src="./asset/icon/twitter.svg">
+				</a>
+			</div>
+		</div>
+		<div class="row mt-5">
+			<div class="col-12 p-2">
+				<span style="color: #36D1DC">
+					Handcrafted by me<br>
+					Copyright 2020 
+					<a style="color: #36D1DC" href="https://thewebgraph.com">The Web Graph</a>
+				</span>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>
