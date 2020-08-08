@@ -25,6 +25,11 @@
 	margin-top: 0;
 }
 
+.text-light{
+	color: #fff;
+	text-decoration: none;
+}
+
 
 @media (min-width: 576px) {
 	.quadragon{
