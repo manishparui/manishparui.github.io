@@ -83,3 +83,11 @@ html {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
+
+
+.theme-bg-primary {
+	background-color: #222831;
+}
+.theme-bg-secondary {
+	background-color: #393E46;
+}
