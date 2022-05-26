@@ -17,16 +17,45 @@ let projects = {
             title: 'Visit Artiner',
             url: 'https://artiner.com/'
         }
+    },
+
+    umbrella: {
+        title: 'Umbrella',
+        description: `
+            Umbrella is a internal application for one of the chartered accountant firm to manage their tasks, from employee management to task management in form of tickets.
+            <br><br>
+            I'm was associated with Umbrellat development team as Technical Lead, as a lead developer my primary role is to deliver productive output by translating business requirement to development.
+            <br><br>
+            As we were developing the application we reliased that performing ton of calculation on server can be costly, so we end up designing a thick client and a thin server as the application is for fully internal usage there should be no issue with the performance to run on high end desktop machine.    
+        `
     }
 }
 
 $('#projectModal').on('show.bs.modal', (event) => {
     let button = $(event.relatedTarget)
     let project = button.data('project')
-    var modal = $('#projectModal')
+    let modal = $('#projectModal')
+
+    modal.find('.project-embed-col').addClass('col-lg-6 d-lg-block')
+    modal.find('.project-description-col').addClass('col-lg-6')
+    modal.find('.project-description-col').removeClass('col-lg-12')
+    modal.find('.project-link').removeClass('d-none')
+    
     modal.find('.project-title').text(projects[project].title)
-    modal.find('.project-embed').attr('src', projects[project].embed.url)
     modal.find('.project-description').html(projects[project].description)
-    modal.find('.project-link').attr('href', projects[project].link.url)
-    modal.find('.project-link-title').text(projects[project].link.title)
+
+    if (projects[project]?.embed?.url) {
+        modal.find('.project-embed').attr('src', projects[project].embed.url)  
+    } else {
+        modal.find('.project-embed-col').removeClass('col-lg-6 d-lg-block')
+        modal.find('.project-description-col').removeClass('col-lg-6')
+        modal.find('.project-description-col').addClass('col-lg-12')
+    }
+
+    if (projects[project]?.link?.url && projects[project]?.link?.title) {
+        modal.find('.project-link').attr('href', projects[project].link.url)
+        modal.find('.project-link-title').text(projects[project].link.title)
+    } else {
+        modal.find('.project-link').addClass('d-none')
+    }
 })
