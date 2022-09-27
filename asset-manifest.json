@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.23a0bb9c.css",
-    "main.js": "/static/js/main.57a58d23.js",
+    "main.js": "/static/js/main.a7c2fd8b.js",
+    "static/media/3390-bg-white-square-1024-fb.jpeg": "/static/media/3390-bg-white-square-1024-fb.6652e45dbdb10f5cf31f.jpeg",
     "index.html": "/index.html",
     "main.23a0bb9c.css.map": "/static/css/main.23a0bb9c.css.map",
-    "main.57a58d23.js.map": "/static/js/main.57a58d23.js.map"
+    "main.a7c2fd8b.js.map": "/static/js/main.a7c2fd8b.js.map"
   },
   "entrypoints": [
     "static/css/main.23a0bb9c.css",
-    "static/js/main.57a58d23.js"
+    "static/js/main.a7c2fd8b.js"
   ]
 }
