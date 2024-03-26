@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.23a0bb9c.css",
-    "main.js": "/static/js/main.abed36a3.js",
+    "main.js": "/static/js/main.db9fec3c.js",
     "static/media/repco.png": "/static/media/repco.18323d509c10cbfa4de6.png",
     "static/media/3390-bg-white-square-1024-fb.jpeg": "/static/media/3390-bg-white-square-1024-fb.6652e45dbdb10f5cf31f.jpeg",
     "static/media/ab-inbev.png": "/static/media/ab-inbev.6557c3fa429ceef6537e.png",
     "static/media/techno-exponent.webp": "/static/media/techno-exponent.8cd7be87d1a134ba2375.webp",
     "index.html": "/index.html",
     "main.23a0bb9c.css.map": "/static/css/main.23a0bb9c.css.map",
-    "main.abed36a3.js.map": "/static/js/main.abed36a3.js.map"
+    "main.db9fec3c.js.map": "/static/js/main.db9fec3c.js.map"
   },
   "entrypoints": [
     "static/css/main.23a0bb9c.css",
-    "static/js/main.abed36a3.js"
+    "static/js/main.db9fec3c.js"
   ]
 }
